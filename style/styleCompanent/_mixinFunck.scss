@@ -1,0 +1,16 @@
+@mixin btn($bg:red, $color:aliceblue ){
+    padding: 6px 18px;
+    background-color: $bg;
+    color: $color;
+    border: none;
+    border-radius: 6px;
+    &:hover{
+        background-color: rgb(196, 42, 42);
+        color: antiquewhite;
+    }
+    &:active{
+        background-color: rgb(114, 13, 13);
+        color: rgb(200, 197, 192);
+        
+    }
+}

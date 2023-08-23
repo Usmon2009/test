@@ -1,0 +1,17 @@
+.about {
+    background-color: #f5f5f5;
+
+    &-title {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        color: red;
+    }
+
+    &-btn {
+        @include btn()
+    }
+}

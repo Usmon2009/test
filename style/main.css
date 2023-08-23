@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.header {
+  background: linear-gradient(90deg, rgb(50, 47, 94) 0%, rgb(52, 52, 108) 50%, rgb(37, 111, 171) 100%);
+  color: white;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  color: rgb(169, 9, 9);
+  font-size: 32px;
+}
+.header-menu ul {
+  display: flex;
+  gap: 20px;
+}
+.header-menu__item {
+  color: bisque;
+  cursor: pointer;
+}
+.header-btn {
+  padding: 6px 18px;
+  background-color: white;
+  color: rgb(0, 0, 255);
+  border: none;
+  border-radius: 6px;
+}
+.header-btn:hover {
+  background-color: rgb(196, 42, 42);
+  color: antiquewhite;
+}
+.header-btn:active {
+  background-color: rgb(114, 13, 13);
+  color: rgb(200, 197, 192);
+}
+
+.about {
+  background-color: #f5f5f5;
+}
+.about-title {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-text {
+  color: red;
+}
+.about-btn {
+  padding: 6px 18px;
+  background-color: red;
+  color: aliceblue;
+  border: none;
+  border-radius: 6px;
+}
+.about-btn:hover {
+  background-color: rgb(196, 42, 42);
+  color: antiquewhite;
+}
+.about-btn:active {
+  background-color: rgb(114, 13, 13);
+  color: rgb(200, 197, 192);
+}/*# sourceMappingURL=main.css.map */
